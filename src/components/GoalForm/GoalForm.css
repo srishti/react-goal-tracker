@@ -1,0 +1,30 @@
+.goal-form {
+  padding: 2rem;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  outline: none;
+}
+
+.form-input:focus,
+.form-input:active {
+  background: lightpink;
+  border: 1px solid purple;
+}
+
+.form-button {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  width: fit-content;
+  background: purple;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
