@@ -1,0 +1,29 @@
+.goal-form {
+  padding: 2rem;
+}
+
+.form-control input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1.25rem;
+  margin: 0.75rem 0;
+  font-size: 1rem;
+  border: 1px solid #bbb;
+  outline: none;
+}
+
+.form-control input:focus,
+.form-control input:active {
+  background: rgb(224, 200, 224);
+  border: 1px solid purple;
+  outline: none;
+}
+
+.form-control.invalid label {
+  color: red;
+}
+
+.form-control.invalid input {
+  border-color: red;
+  background: #f3aeae;
+}

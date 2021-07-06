@@ -1,0 +1,22 @@
+.button {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1.25rem;
+  width: 100%;
+  background: purple;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: rgb(204, 96, 204);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: auto;
+  }
+}

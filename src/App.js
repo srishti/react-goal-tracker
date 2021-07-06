@@ -6,8 +6,8 @@ import GoalsList from "./components/Goals/GoalsList";
 
 const DUMMY_GOALS = [
   { id: 1, name: "Do all exercises!" },
-  { id: 2, name: "Finish the course!" },
-  { id: 3, name: "Complete all projects!" },
+  { id: 2, name: "Complete all projects!" },
+  { id: 3, name: "Finish the course!" },
 ];
 
 const App = () => {
